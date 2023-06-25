@@ -148,3 +148,6 @@ DJOSER = {
     'PASSWORD_RESET_CONFIRM_RETYPE': True,
     'TOKEN_MODEL': None,  # in case of jwt set this as None
 }
+
+# ! make django use my custom user model
+AUTH_USER_MODEL = 'users.UserAccount'
